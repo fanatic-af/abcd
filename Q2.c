@@ -9,8 +9,6 @@ int main(){
     scanf("%s", w1);
     printf("Give the word that will replace : ");
     scanf("%s", w2);
-    printf("Give number of times the replacement to be done = ");
-    scanf("%d", &n);
 
     int l = strlen(w1);
     FILE *ptr;
